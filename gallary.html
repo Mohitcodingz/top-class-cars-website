@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+     <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--brand logowith name + home+ gallary+ contact us  -->
+    <!-- crasoul 3-->
+    <!-- for gallary  after navigating 3cards -->
+    <!-- for contact us after navigating proper form using bootstrap -->
+    <!-- note: add "brand logowith name + home+ gallary+ contact us " in every webpage of navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="logo.jpg" alt="" style="width: 50px; height: 50px;">
+            <a class="navbar-brand" href="#">Top class cars</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallary.html" style="color: black;">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html" style="color: black;">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1 style="text-align: center; padding: 60px 0;"><strong>Best Deals</strong></h1>
+    <div class="card-group">
+        <div class="card">
+            <img src="car lanscap.jpg" class="card-img-top" alt="..." height="200px;">
+            <div class="card-body">
+                <h5 class="card-title">Blue Porsche 911 (Modified with Widebody & Spoiler)</h5>
+                <p class="card-text">Turn heads with this stunning widebody Porsche 911, finished in a striking blue
+                    with an aggressive Liberty Walk kit. Featuring a massive rear wing, upgraded exhaust system, and
+                    race-inspired styling, this machine blends raw performance with eye-catching design. Built for speed
+                    and presence, it’s the ultimate street-legal statement car.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="carrr2.jpg" class="card-img-top" alt="..." height="200px; ">
+            <div class="card-body">
+                <h5 class="card-title">Matte Black Lamborghini Aventador (SVJ Styled)</h5>
+                <p class="card-text">Experience pure Italian engineering with this breathtaking Lamborghini Aventador,
+                    wrapped in matte black for a stealthy, exotic look. Equipped with a powerful V12 engine, aggressive
+                    aero package, and premium performance upgrades, this supercar delivers both speed and luxury. A
+                    masterpiece for those who demand nothing less than perfection.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="car3.jpg" class="card-img-top" alt="..." height="200px; ">
+            <div class="card-body">
+                <h5 class="card-title">Classic Yellow Chevrolet Corvette (C3)</h5>
+                <p class="card-text">Own a true piece of American muscle history with this classic Chevrolet Corvette
+                    C3. Finished in a bold yellow paint, this vintage icon boasts timeless curves, raw V8 power, and
+                    unmatched road presence. Perfect for collectors and enthusiasts alike, it’s a rare opportunity to
+                    experience the golden age of sports cars in style.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
